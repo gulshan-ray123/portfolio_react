@@ -12,9 +12,7 @@ import Project from './Components/Project.jsx'
 import Proj_htlh from './Components/Proj_htlh.jsx'
 import Project_bank from './Components/Project_bank.jsx'
 import Blogs from './Components/Blogs.jsx'
-const router=createBrowserRouter(
-  basename="/portfolio_react"
-  [
+const router=createBrowserRouter([
   {
     path:'/',
     element:<Layout/>,
@@ -55,7 +53,10 @@ const router=createBrowserRouter(
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter basename="portfolio_react">
+  <App />
+</BrowserRouter>,
   <React.StrictMode>
  <RouterProvider router={router}/>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
