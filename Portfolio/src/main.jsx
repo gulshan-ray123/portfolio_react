@@ -53,7 +53,7 @@ const router=createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="portfolio_react">
+  <BrowserRouter basename="portfolio">
   <App />
 </BrowserRouter>,
   <React.StrictMode>
