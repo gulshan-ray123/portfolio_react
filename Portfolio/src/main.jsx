@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { RouterProvider, HashRouter } from 'react-router-dom'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './Components/Layout.jsx'
 import About from './Components/About.jsx'
 import Home from './Components/Home.jsx'
@@ -12,7 +12,7 @@ import Project from './Components/Project.jsx'
 import Proj_htlh from './Components/Proj_htlh.jsx'
 import Project_bank from './Components/Project_bank.jsx'
 import Blogs from './Components/Blogs.jsx'
-const router=createHashRouter([
+const router=createBrowserRouter([
   {
     path:'/',
     element:<Layout/>,
@@ -53,9 +53,9 @@ const router=createHashRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <HashRouter basename="portfolio_react">
+  <BrowserRouter basename="portfolio_react">
   <App />
-</HashRouter>,
+</BrowserRouter>,
   <React.StrictMode>
  <RouterProvider router={router}/>
   </React.StrictMode>
