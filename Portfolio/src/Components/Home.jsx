@@ -9,7 +9,7 @@ function Home() {
     <div>
       <div className="flex justify-center h-[610px] pl-14     md:flex md:justify-end mr-20">
       
-      <div className="h-[340px] w-[290px] border-green-800 drop-shadow-2xl block  bg-[url('gulshan_preview_rev_1.png')] bg-cover md:hidden"></div>
+      <div className="h-[340px] w-[290px] border-green-800 drop-shadow-2xl block mr-14  bg-[url('gulshan_preview_rev_1.png')] bg-cover md:hidden"></div>
       <div className= " hidden md:h-[400px] w-[400px] mr-20 mt-24 md:flex md:bg-sky-500 rounded-[50%] bg-[url('gulshan_preview_rev_1.png')] bg-cover hover:shadow-2xl hover:border-2 hover: border-yellow-600"></div>
       </div> 
         <div className=" hidden md:text-teal-50 ml-44 md:absolute bottom-40 md:block">

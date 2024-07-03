@@ -10,7 +10,7 @@ function Res() {
     <NavLink to='/Skills' className={()=>"mt-2"}>Skills</NavLink>
     <NavLink to='/Project' className={()=>"mt-2"}>Projects</NavLink>
     <NavLink to='/Blogs' className={()=>"mt-2"}>Blogs</NavLink>
-    {/* <NavLink to='/About' className={()=>"mt-2"}>Contact</NavLink> */}
+    <Link to='https://github.com/gulshan-ray123/portfolio_react' className={()=>"mt-2"}>Portfolio link</Link>
     </div>
   </nav>
     </div>
