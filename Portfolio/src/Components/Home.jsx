@@ -8,8 +8,9 @@ function Home() {
       <main className="md:h-full w-full bg-black opacity-85">
     <div>
       <div className="flex justify-center h-[610px] pl-14     md:flex md:justify-end mr-20">
-      <img src="./src/gulshan_preview_rev_1.png" className= "h-[340px] w-[290px] border-green-800 drop-shadow-2xl block ml-10     md:h-[530px] md:w-[450px]  md:hidden"/>
-      <div className= "h-[400px] w-[400px] mr-20 mt-24 flex md:bg-sky-500 rounded-[50%] bg-[url('gulshan_preview_rev_1.png')] bg-cover hover:shadow-2xl hover:border-2 hover: border-yellow-600"></div>
+      
+      <div className="h-[340px] w-[290px] border-green-800 drop-shadow-2xl block  bg-[url('gulshan_preview_rev_1.png')] bg-cover md:hidden"></div>
+      <div className= " hidden md:h-[400px] w-[400px] mr-20 mt-24 md:flex md:bg-sky-500 rounded-[50%] bg-[url('gulshan_preview_rev_1.png')] bg-cover hover:shadow-2xl hover:border-2 hover: border-yellow-600"></div>
       </div> 
         <div className=" hidden md:text-teal-50 ml-44 md:absolute bottom-40 md:block">
             <h4 className='text-yellow-500 font-serif text-2xl'>Hello !</h4>
