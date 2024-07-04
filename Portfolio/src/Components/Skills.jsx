@@ -156,8 +156,8 @@ function Skills() {
     <div className='mt-4'>
     <div className="h-10 w-10 ml-[145px]    md:h-14 md:w-14 bg-[url('https://tse1.mm.bing.net/th?id=OIP.igsTOJNvPT5roAeEEwUn7QAAAA&pid=Api&P=0&h=180')] bg-cover  rounded-3xl">
      </div>
-  <div class="w-[350px] h-2 ml-0    md:w-[400px] md:h-2 bg-yellow-400 md: mt-2  rounded ">
-    <div class="ml-[300px]   md:w-[80px] h-2 bg-gray-900 md:ml-[390px] mt-2 rounded-3xl">
+     <div class="w-[340px] h-2 ml-0    md:w-[450px] md:h-2 bg-yellow-400 md:ml-36 mt-2  rounded ">
+    <div class="ml-[275px]    w-[70px] h-2 bg-gray-900 md:ml-[420px] mt-2 rounded-3xl">
       <div></div>
       <h2 class="text-white ml-2 static top-8 ">90%</h2> 
     </div>
@@ -167,7 +167,7 @@ function Skills() {
     <div className="h-10 w-10 ml-[145px]   md:h-14 md:w-14 bg-[url('https://tse2.mm.bing.net/th?id=OIP.cfOU3eIQ4r7apnPYvkWxxgHaHa&pid=Api&P=0&h=180')] bg-cover rounded-3xl">
      </div>
   <div class="w-[350px] h-2 ml-0      md:w-[350px] md:h-2 bg-yellow-400 md: mt-2  rounded ">
-    <div class="ml-[300px]      md:w-[150px] h-2 bg-gray-900 md:ml-[320px] mt-2 rounded-3xl">
+    <div class="ml-[245px]      md:w-[150px] h-2 bg-gray-900 md:ml-[320px] mt-2 rounded-3xl">
       <div></div>
       <h2 class="text-white ml-2 static top-8 ">80%</h2> 
     </div>
@@ -178,7 +178,7 @@ function Skills() {
     <div className="h-10 w-10 ml-[145px]   md:h-14 md:w-14 bg-[url('https://pluspng.com/img-png/logo-mongodb-png-hundreds-of-popular-mongodb-articles-400.png')] bg-cover rounded-3xl">
      </div>
   <div class="w-[350px] h-2 ml-0      md:w-[300px] md:h-2 bg-yellow-400 md: mt-2  rounded ">
-    <div class="ml-[300px]      md:w-[200px] h-2 bg-gray-900 md:ml-[280px] mt-2 rounded-3xl">
+    <div class="ml-[220px]      md:w-[200px] h-2 bg-gray-900 md:ml-[280px] mt-2 rounded-3xl">
       <div></div>
       <h2 class="text-white ml-2 static top-8 ">70%</h2> 
     </div>
@@ -189,7 +189,7 @@ function Skills() {
     <div className="h-10 w-10 ml-[145px]    md:h-14 md:w-14 bg-[url('https://gss-technology.com/wp-content/uploads/2021/07/round8.png')] bg-cover rounded-3xl">
      </div>
   <div class="w-[350px] h-2 ml-0      md:w-[300px] md:h-2 bg-yellow-400 md: mt-2  rounded ">
-    <div class="ml-[300px]      md:w-[200px] h-2 bg-gray-900 md:ml-[240px] mt-2 rounded-3xl">
+    <div class="ml-[200px]      md:w-[200px] h-2 bg-gray-900 md:ml-[240px] mt-2 rounded-3xl">
       <div></div>
       <h2 class="text-white ml-2 static top-8 ">65%</h2> 
     </div>
